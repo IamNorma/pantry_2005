@@ -62,8 +62,6 @@ class CookBookTest < Minitest::Test
     recipe2.add_ingredient(ingredient1, 2)
     recipe2.add_ingredient(ingredient3, 4)
     recipe2.add_ingredient(ingredient4, 1)
-    recipe1.total_calories
-    recipe2.total_calories
     cookbook.add_recipe(recipe1)
     cookbook.add_recipe(recipe2)
 
